@@ -8,6 +8,10 @@ This code uses the MPU9255 library: https://github.com/Bill2462/MPU9255-Arduino-
 ## Content:
 - MPU9255.ino: Arduino sketch for reading IMU values (Acc,Gyr,Mag) and processing the raw data into Roll, Pitch, Yaw angles. issues: Yaw angle needs debuging, need to check equations.
 
+    <p align="center">
+    <img src="https://github.com/OakLake/MPU9255/blob/master/imgs/serial_plotter_RPY.png">
+    </p>
+
 - MPU9255_rosserial_arduino.ino: Arduino sketch for communicating with ROS (on Linux) via serrial. issues: too much computation on Arduino, need to split arduino parts to only publishing raw data, and adding a processing node in ROS.
 
 -----

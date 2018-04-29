@@ -6,7 +6,7 @@ This code uses the MPU9255 library: https://github.com/Bill2462/MPU9255-Arduino-
 -----
 
 ## Content:
-- MPU9255.ino: Arduino sketch for reading IMU values (Acc,Gyr,Mag) and processing (LowPassFilter,HighPassFilter)the raw data into Roll, Pitch, Yaw angles. issues: Yaw angle needs debuging, need to check equations.
+- MPU9255.ino: Arduino sketch for reading IMU values (Acc,Gyr,Mag) and processing (LowPassFilter,HighPassFilter) the raw data into Roll, Pitch, Yaw angles. issues: Yaw angle needs debuging, need to check equations.
 
 Blue Red Green :: Roll Pitch Yaw
 

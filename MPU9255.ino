@@ -157,7 +157,7 @@ void loop() {
 
 
 
-/*
+
   Serial.print(" Roll: ");
   Serial.print(roll);
   Serial.print(" Pitch: ");
@@ -165,7 +165,7 @@ void loop() {
   Serial.print(" Yaw: ");
   Serial.print(yaw);
   Serial.println();
- */
+ 
   delay(100);
 }
 
